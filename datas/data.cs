@@ -56,6 +56,7 @@ public class Dataconfiguracao
             case 3:
             case 4:
             case 5:
+                Console.Clear();
                 formato = escolha;
                 break;
 
@@ -114,6 +115,7 @@ public class Dataconfiguracao
         Console.WriteLine("1 - Fate/Stay Night: Unlimited Blade Works");
         Console.WriteLine("2 - Shingetsutan Tsukihime");
         Console.WriteLine("3 - Kara no Kyoukai: Fukan Fuukei");
+        Console.WriteLine("4 - Voltar para formatação da data");
         Console.WriteLine("Pressione qualuqer outra tecla para sair");
 
         var animeesc = byte.Parse(Console.ReadLine());
@@ -143,6 +145,11 @@ public class Dataconfiguracao
                 cabecalho(animeesc);
                 Console.WriteLine("Nem muito bom, nem muito ruim...É legal mas sei la, estranho ao mesmo tempo");
                 Console.WriteLine("------------");
+                break;
+
+            case 4:
+                Console.Clear();
+                menuformato();
                 break;
 
             default:
