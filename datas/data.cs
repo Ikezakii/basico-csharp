@@ -111,7 +111,7 @@ public class Dataconfiguracao
     {
 
         Console.WriteLine("Selecione o Anime");
-        Console.WriteLine("1 - Fate/stay night: Unlimited Blade Works");
+        Console.WriteLine("1 - Fate/Stay Night: Unlimited Blade Works");
         Console.WriteLine("2 - Shingetsutan Tsukihime");
         Console.WriteLine("3 - Kara no Kyoukai: Fukan Fuukei");
         Console.WriteLine("Pressione qualuqer outra tecla para sair");
@@ -123,6 +123,7 @@ public class Dataconfiguracao
 
             case 1:
                 Console.Clear();
+                Console.Write("Fate/Stay Night: Unlimited Blade Works - ");
                 cabecalho(animeesc);
                 Console.WriteLine("Melhor Fate de todos da linha 'Stay / Night', Toosaka best girl <3");
                 Console.WriteLine("------------");
@@ -130,6 +131,7 @@ public class Dataconfiguracao
 
             case 2:
                 Console.Clear();
+                Console.Write("Shingetsutan Tsukihime - ");
                 cabecalho(animeesc);
                 Console.WriteLine("Anime que no começo eu não achei a pior coisa do mundo, mas depois de jogar a novel MEUDEUS que anime ruim");
                 Console.WriteLine("------------");
@@ -137,6 +139,7 @@ public class Dataconfiguracao
 
             case 3:
                 Console.Clear();
+                Console.Write("Kara no Kyoukai: Fukan Fuukei - ");
                 cabecalho(animeesc);
                 Console.WriteLine("Nem muito bom, nem muito ruim...É legal mas sei la, estranho ao mesmo tempo");
                 Console.WriteLine("------------");
